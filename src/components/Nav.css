@@ -1,0 +1,91 @@
+nav{
+    width:100%;
+    height:72px;
+    background:rgba(20,24,28);
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .container{
+    width:70%;
+    height:100%;  
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .container .fulllogo {
+    display:flex;
+    float:left;
+    align-items: center;
+    
+  }
+  nav .fulllogo img{
+    object-fit:contain;
+    height:21px;
+  }
+  
+  nav .container .fulllogo h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+    padding:10px;
+    color:white;
+  }
+  
+  nav .links{
+    float:right;
+    display:flex;
+    align-items: center;
+  }
+  
+  nav .links ul{
+    display:flex;
+    list-style: none;
+    transition:0.1s;
+  }
+  
+  nav .links ul li a{
+  text-decoration: none;
+  padding:10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color:#9ab;
+  font-weight: bold;
+  }
+  
+  nav .links ul li a:hover{
+    color:white;
+    cursor:pointer;
+  }
+  
+  .container .links .input-search{
+    background:rgba(44,52,64);
+    border-radius: 1em;
+    padding:5px;
+    border-bottom: 1px solid rgb(74, 77, 80);
+  }
+  
+  .container .links .input-search input{
+    border:none;
+    background:none;
+    width:125px;
+    outline:none;
+    padding:5px;
+  }
+
+  .container .links .input-search input::placeholder{
+    color:#9ab;
+  }
+
+  .container .links .input-search a{
+    text-decoration: none;
+    color:grey;
+  }
+
+  .container .links .input-search a:hover{
+      color:white;
+  }
+
+  
